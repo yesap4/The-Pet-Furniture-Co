@@ -5,8 +5,8 @@ import Reviews from "./Reviews";
 
 const Ratings = () => {
   return (
-    <div className="flex-none h-75 bg-green-300 relative bottom-60 -left-22 w-104 min-w-104 p-4">
-      <div className="flex flex-col items-center justify-center py-6 gap-4">
+    <div className="flex flex-col items-center justify-center bg-green-300 rounded-lg w-full max-w-xs p-6">
+      <div className="flex flex-col items-center justify-center gap-4">
         <div className="flex items-center justify-center gap-2">
           <p className="text-green-950 text-5xl font-semibold">4.6</p>
           <button>
@@ -19,4 +19,4 @@ const Ratings = () => {
   );
 };
 
-export default Ratings; 
+export default Ratings;

@@ -4,7 +4,7 @@ import Slider_BTN from './Explore Products Slider Button/Slider_BTN';
 
 const Explore_Products = () => {
   return (
-      <div className="flex-none w-136 h-75 bg-green-950 relative bottom-60 right-22 px-16">
+      <div className="flex flex-col items-center justify-center bg-green-950 rounded-lg px-8 py-8 w-full max-w-xs">
         <Best_Products />
         <Slider_BTN />
     </div>
