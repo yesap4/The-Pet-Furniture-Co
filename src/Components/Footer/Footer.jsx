@@ -1,15 +1,13 @@
 import React from 'react';
-import Happy_Clients from './Happy Clients Count/Happy_Clients';
-import Explore_Products from './Explore Products/Explore_Products';
+import Client from './Clients/Client';
+import Explore_More from './Explore More/Explore_More';
 import Ratings from './Ratings/Ratings';
-
-
 
 const Footer = () => {
   return (
-    <div className="flex flex-nowrap">
-        <Happy_Clients />
-        <Explore_Products />
+    <div className="grid grid-cols-3 h-screen relative bottom-60 ">
+        <Client />
+        <Explore_More />
         <Ratings />
     </div>
   );
